@@ -1,10 +1,14 @@
-/* eslint-disable */
+let a = ["the", "our"];
+let b = ["great", "big"];
+let c = ["jogger", "racoon"];
+let d = [".com", ".it", ".es"];
 
-import "../assets/img/rigo-baby.jpg";
-import "../assets/img/4geeks.ico";
-//import 'breathecode-dom'; //DOM override to make JS easier to use
-import "../style/index.scss";
-
-window.onload = function() {
-  console.log("Hello Rigo from the console!");
-};
+for (let g = 0; g < a.length; g++) {
+  for (let h = 0; h < b.length; h++) {
+    for (let i = 0; i < c.length; i++) {
+      for (let j = 0; j < d.length; j++) {
+        console.log(a[g] + b[h] + c[i] + d[j]);
+      }
+    }
+  }
+}
